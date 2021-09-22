@@ -27,9 +27,9 @@ Ce mode ligue permet donc d'établir un classement des joueurs ayant le plus de 
 ![Création de Question 2](images/create_question_2.jpg)
 
 Affichage pour les modérateurs :
-![Accueil Modération](images/moderation_accueil.jpg)
-![Questions à valider](images/moderation_questions_à_valider.jpg)
+![Accueil Modération](images/moderateur_accueil.jpg)
+![Questions à valider](images/moderateur_questions_à_valider.jpg)
 ![Question Modération](images/moderation_question.jpg)
 ![Question Modération 2](images/moderation_question_2.jpg)
-![Questions validées](images/moderation_questions_validées.jpg)
+![Questions validées](images/moderateur_questions_validées.jpg)
 ![Statistiques](images/statistiques.jpg)
