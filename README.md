@@ -21,7 +21,7 @@ Ce mode ligue permet donc d'établir un classement des joueurs ayant le plus de 
 ![Connexion](images/connexion.jpg)
 ![Page d'Aide](images/page_aide.jpg)
 ![Paramètres](images/paramètres.jpg)
-![Classement](images/classement.jpg)
+![Classement](images/classements.jpg)
 ![Normal Game](images/normal_game.jpg)
 ![Création de Question](images/create_question.jpg)
 ![Création de Question 2](images/create_question_2.jpg)
