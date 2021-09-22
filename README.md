@@ -13,9 +13,10 @@ Ce mode n'est seulement accessible une fois que le joueur est connecté à un co
 Lorsque le joueur répond correctement, il va gagner un point mais au contraire si il ne répond pas correctement alors il perdra un point.
 Ce mode ligue permet donc d'établir un classement des joueurs ayant le plus de points pour avoir une partie "compétitive" pour palier à l'ennui !
 
+# Video montrant les fonctionnalités du site
 [![Video montrant les fonctionnalités du site](https://i.imgur.com/3wKj2ZC.jpg)](https://www.youtube.com/watch?v=TwQL-pbniM8)
 
-Si vous n'aimez pas les vidéos, voici des images illustrant le site :
+# Si vous n'aimez pas les vidéos, voici des images illustrant le site :
 ![Accueil](images/accueil.jpg)
 ![Connexion](images/connexion.jpg)
 ![Page d'Aide](images/page_aide.jpg)
