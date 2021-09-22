@@ -1,0 +1,55 @@
+body {
+	background-color: #36393F;
+}
+
+.button {
+	background-color: #C4C4C4;
+	border-radius: 25px;
+}
+
+.buttonquitter {
+	background-color: #C0A19A;
+	border-radius: 25px;
+}
+
+.buttonvalider {
+	background-color: #206400;
+	border-radius: 25px;
+}
+
+.connect {
+	background-color: #40444B;
+	border-radius: 10px;
+	color: white;
+}
+
+.twrap {
+	width: 125px;
+}
+
+.blanc {
+	background-color: white;
+}
+
+button {
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	outline: none;
+	text-align: center;
+	color: white;
+}
+
+input {
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	outline: none;
+	text-align: center;
+}
+
+a {
+	color: white;
+}

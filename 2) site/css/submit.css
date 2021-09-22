@@ -1,0 +1,68 @@
+body {
+	background-color: #36393F;
+}
+
+.button {
+	background-color: #5C6069;
+	border-radius: 25px;
+	color: #FFFFFF;
+}
+
+.button2 {
+	background-color: #C0A19A;
+	font-size: 1.5em;
+	font-weight: 500;
+	border-radius: 25px;
+	color: #FFFFFF;
+}
+
+.title {
+	background-color: #5C6069;
+	color: #D8D8D8;
+	border-radius: 10px;
+	box-shadow: 0px 2px 2px 1px black;
+}
+
+.connect {
+	background-color: #475299;
+	border-radius: 10px;
+}
+
+.twrap {
+	width: 350px;
+}
+
+button {
+	background-color: #C0A19A;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	outline: none;
+	text-align: center;
+	color: white;
+}
+
+input {
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	outline: none;
+	text-align: center;
+}
+
+.buttoncolor {
+	color: black;
+}
+
+.exit {
+	width: 35px;
+	height: 20px;
+}
+
+.buttonquitter {
+	background-color: #C0A19A;
+	border-radius: 10px;
+	color: white;
+}

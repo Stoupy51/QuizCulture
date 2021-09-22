@@ -1,0 +1,129 @@
+body {
+	background-color: #36393F;
+}
+
+.button {
+	background-color: #C4C4C4;
+	border-radius: 25px;
+}
+
+.buttonquitter {
+	background-color: #C0A19A;
+	border-radius: 10px;
+	color: white;
+}
+
+.connect {
+	background-color: #837575;
+	border-radius: 10px;
+}
+
+.twrap {
+	width: 125px;
+}
+
+.test {
+	background-color: #837575;
+}
+
+h3 {
+	color: white;
+}
+
+/* Barre Numéro/Pseudo/Points tableau */
+.barre {
+	background-color: white;
+	border-radius: 25px;
+	font-size: small;
+}
+
+/* Couleur bleu foncé pour les pseudos/points quand le numéro est impair (mode normal)*/
+.pairN {
+	background-color: #475299;
+	border-radius: 5px;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+/* Couleur bleu clair pour les pseudos/points quand le numéro est pair (mode normal)*/
+.impairN {
+	background-color: #7D87C5;
+	border-radius: 5px;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+/* Couleur rouge foncé pour les pseudos/points quand le numéro est impair (mode ligue)*/
+.pairL {
+	background-color: #DE1414;
+	border-radius: 5px;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+/* Couleur rouge clair pour les pseudos/points quand le numéro est pair (mode ligue)*/
+.impairL {
+	background-color: #CE5858;
+	border-radius: 5px;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+/* Couleur bleu foncé pour les numéros quand c"est impair (mode normal)*/
+.nn1 {
+	background-color: #475299;
+	border-radius: 25px;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+/* Couleur bleu clair pour les numéros quand c"est pair (mode normal)*/
+.nn2 {
+	background-color: #7D87C5;
+	border-radius: 25px;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+/* Couleur rouge foncé pour les numéros quand c"est impair (mode ligue)*/
+.ln1 {
+	background-color: #DE1414;
+	border-radius: 25px;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+/* Couleur rouge clair pour les numéros quand c"est pair (mode ligue)*/
+.ln2 {
+	background-color: #CE5858;
+	border-radius: 25px;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+/* Couleur gold quand on se voit affiché*/
+.gold {
+	color: #D2B241;
+	font-weight: bold;
+}
+
+.white {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.ligue {
+	font-size: 1.5em;
+}
+
+.ligueImg {
+	border-radius: 10px;
+}

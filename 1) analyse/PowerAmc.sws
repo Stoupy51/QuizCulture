@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.3.0.3445"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{41E1CCE6-A60D-4AE2-87E1-711983B8ADAC}" Name="LeMCD" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="LeMCD.mcd"/>
+		<Model Expanded="Yes" ID="{5C0FCE15-08E2-4D31-AD7C-C096A8630A36}" Name="LeMPD" Selected="Yes" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="LeMPD.mpd"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>

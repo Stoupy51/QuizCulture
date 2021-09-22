@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>40</y>
+      <w>250</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>Question
+--
+- idQuestion : int
+- idImage : int
+- idJoueur : int
+- texte : string
+- tempsQuestion : int
+- typeReponse : int
+- explication : string
+- niveau : int
+- isVerified : bool
+--
+_+createFromId(int) : Question_
++getBonnesReponses() : array
++getReponses() : array
++getImage() : string
++getType() : int
++getTexte() : string
++getPseudo() : string
++getNiveau() : int
++getTemps() : int
++getExplication() : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>40</y>
+      <w>250</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Reponse
+--
+- idReponse : int
+- idQuestion : int
+- bonneReponse : bool
+- texteReponse : string
+--
+_+createFromId(int) : Reponse_
++getTexte() : string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>270</y>
+      <w>250</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Image
+--
+- idImage : int
+- contenu : string
+--
+_+createFromId(int) : Image_
++getContenu() : string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>100</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+Possède &gt;
+m2=1..*</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>310</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Peut contenir &gt;
+m1=1
+m2=0..1</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>480</y>
+      <w>250</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Joueur
+--
+- idJoueur : int
+- pseudo : string
+- motDePasse : string
+- points : int
+- role : int
+--
+_+createFromId(int) : Joueur_
++getPseudo() : string
++getPoints() : int
++getRole() : int
++getId() : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>370</y>
+      <w>90</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;
+Identifie v
+m1=*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+</diagram>

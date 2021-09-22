@@ -1,0 +1,34 @@
+body {
+	background-color: #36393F;
+}
+
+.button {
+	background-color: #C4C4C4;
+	border-radius: 25px;
+}
+
+.question {
+	font-style: bold;
+	font-size: 1.5em;
+}
+
+.etat {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.propo {
+	background-color: #C4C4C4;
+	border-radius: 10px;
+}
+
+a {
+	font-size: 0.8em;
+}
+
+.buttonquitter {
+	background-color: #C0A19A;
+	border-radius: 10px;
+	color: white;
+	font-size: 1em;
+}

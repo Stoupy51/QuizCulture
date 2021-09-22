@@ -1,0 +1,63 @@
+body {
+	background-color: #36393F;
+	color: white;
+}
+
+.button {
+	border-radius: 10px;
+	box-shadow: 0px 1px 1px 1px black;
+	color: white;
+}
+
+.temps {
+	background-color: #475299;
+}
+
+.niveau {
+	background-color: #E42900;
+}
+
+.question {
+	background-color: #40444B;
+	font-size: 2em;
+}
+
+.passer {
+	background-color: #630000;
+	font-size: 1.2em;
+}
+
+.reponse {
+	background-color: #5C6069;
+	font-size: 1.2em;
+	padding: 20px 50px 20px;
+}
+.bonnereponse {
+	border-radius: 10px;
+	background-color: #00A54C;
+	box-shadow: 0px 1px 1px 1px black;
+	color: white;
+	font-size: 1.2em;
+}
+
+.buttonsuivant {
+	background-color: #1572B5;
+	border-radius: 10px;
+	color: white;
+	display: none;
+}
+
+.explications {
+	background-color: #C4C4C4;
+	border-radius: 10px;
+	box-shadow: 0px 1px 1px 1px black;
+	color: black;
+	font-size: 1.5em;
+}
+
+.buttonquitter {
+	background-color: #C0A19A;
+	border-radius: 10px;
+	color: white;
+	display: none;
+}

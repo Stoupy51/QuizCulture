@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Proposez vos questions</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="css/reponse.css" rel="stylesheet">
+    </head>
+    <body class="h-100 w-100">
+        <div class="d-flex flex-column w-50 m-auto">
+            <form class="d-flex flex-column" name="question" method="POST" action="submitReponse.php" enctype="multipart/form-data">
+                <label class="button2 mt-5 p-2 text-center">
+                    <input class="w-100" name="question" type="text" placeholder="Tapez votre question ici" maxlength="100" required>
+                </label>                   
+                <label class="d-flex flex-column align-items-center mx-auto button2 mt-5 text-center w-75">
+                    <svg width="36" height="32" viewBox="0 0 36 32" fill="none" xmlns="http://www.w3.org/2000/svg" class="m-5">
+                        <path d="M3 7.99996C3 6.58547 3.63214 5.22892 4.75736 4.22872C5.88258 3.22853 7.4087 2.66663 9 2.66663H27C28.5913 2.66663 30.1174 3.22853 31.2426 4.22872C32.3679 5.22892 33 6.58547 33 7.99996V24C33 25.4144 32.3679 26.771 31.2426 27.7712C30.1174 28.7714 28.5913 29.3333 27 29.3333H9C7.4087 29.3333 5.88258 28.7714 4.75736 27.7712C3.63214 26.771 3 25.4144 3 24V7.99996Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.75 14.6667C14.8211 14.6667 16.5 13.1743 16.5 11.3333C16.5 9.49238 14.8211 8 12.75 8C10.6789 8 9 9.49238 9 11.3333C9 13.1743 10.6789 14.6667 12.75 14.6667Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21.789 16.828L9 29.3333H27.1995C28.7379 29.3333 30.2133 28.7901 31.3011 27.8232C32.3889 26.8562 33 25.5448 33 24.1773V24C33 23.3787 32.7375 23.14 32.265 22.68L26.22 16.82C25.9383 16.5468 25.5956 16.3288 25.2138 16.18C24.832 16.0311 24.4194 15.9546 24.0025 15.9553C23.5856 15.9561 23.1734 16.0341 22.7923 16.1843C22.4112 16.3346 22.0695 16.5538 21.789 16.828V16.828Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <h2>Importer une Image (Optionnel)</h2>
+                    <input name="image" type="file" accept=".png, .jpg, .jpeg" class="m-5">
+                </label>
+                <div class="d-flex flex-row justify-content-between">
+                    <label class="d-flex button liste mt-1 p-2 text-center">
+                        <img src="img/trophy.png"  width="25">
+                        <select class="sel" name="niveau" required>
+                            <option disabled selected label="Niveau"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </label>
+                    <label class="button liste mt-1 p-2 text-center">
+                        <img src="img/horloge.png" width="25">
+                        <select class="sel" name="temps" required>
+                            <option disabled selected label="Temps (en secondes)"></option>
+                            <option value="10">10 secondes</option>
+                            <option value="15">15 secondes</option>
+                            <option value="20">20 secondes</option>
+                            <option value="30">30 secondes</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="mt-3 rep">Réponses acceptées:</div>
+                <label class="d-flex button mx-3 p-2 mt-5 text-center align-items-center">
+                    <input class="m-2 p-3 left w-100" name="reponses" type="text" placeholder="Ajouter des réponses sous ce format : Reponse1, Reponse2, Reponse3, ..." required>
+                </label>
+                <label class="button2 mt-2 p-2">
+                    <input class="left w-100 mb-5" name="complement" type="text" placeholder="Ajouter des infos complémentaires (optionnel)" maxlength="200">
+                </label>
+                <div class="d-flex justify-content-between">
+                    <a class="m-5 p-2 buttonquitter" href="."><svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.8 16.875V13.5H12.1333V10.125H20.8V6.75L26 11.8125L20.8 16.875ZM19.0667 15.1875V21.9375H10.4V27L0 21.9375V0H19.0667V8.4375H17.3333V1.6875H3.46667L10.4 5.0625V20.25H17.3333V15.1875H19.0667Z" fill="white"/>
+                        </svg>
+                        Quitter    
+                    </a>
+                    <button class="m-5 p-2 px-3 buttonvalider" type="submit">Valider</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

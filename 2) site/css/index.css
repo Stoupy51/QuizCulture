@@ -1,0 +1,29 @@
+body {
+	background-color: #36393F;
+}
+
+.button {
+	background-color: #C4C4C4;
+	border-radius: 1.0em;
+	cursor: pointer;
+}
+
+.connect {
+	background-color: #475299;
+	border-radius: 10px;
+}
+
+.twrap {
+	width: 150px;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.lock {
+	width: 20px;
+	height: 20px;
+}
+
+.vert {
+	background-color: #00AA00;
+}

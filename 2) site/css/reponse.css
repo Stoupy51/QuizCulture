@@ -1,0 +1,78 @@
+body {
+	background-color: #36393F;
+}
+
+.button {
+	background-color: #5C6069;
+	border-radius: 15px;
+	color: white;
+	box-shadow: 0px 2px 2px black;
+}
+
+.button3 {
+	border: 1px white solid;
+	border-radius: 5px;
+	color: white;
+	font-size: 0.8em;
+}
+
+.button2 {
+	background-color: #5C6069;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0px 2px 2px 1px black;
+	font-size: 1.5em;
+}
+
+.liste, select {
+	background-color: #475299;
+	border-style: hidden;
+	outline: none;
+	text-align: center;
+	color: white;
+}
+
+input {
+	background-color: #5C6069;
+	border-style: hidden;
+	outline: none;
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+	border-radius: 10px;
+}
+
+.sel {
+	color: black;
+	font-weight: 500;
+}
+
+::placeholder {
+	color: lightgrey;
+}
+
+.buttonsupprimer {
+	background-color: #B50000;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.buttonvalider {
+	background-color: #206400;
+	border-radius: 10px;
+	color: white;
+}
+
+.buttonquitter {
+	background-color: #C0A19A;
+	border-radius: 10px;
+	color: white;
+}
+
+.rep {
+	color: white;
+	font-size: 18px;
+}

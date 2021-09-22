@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <title>Connexion</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="css/connection.css" rel="stylesheet">
+    </head>
+    <body class="h-100 w-100">
+        <div class="d-flex flex-column h-100 w-50 m-auto">
+            <h1 class="button mt-3 mb-3 mx-5 p-2 text-center d-flex flex-column">Pataïtaï</h1>
+            <div class="mt-5 d-flex flex-column align-self-center p-3">
+                <p class="connect text-center px-5">Connectez-vous</span>
+            </div>
+            <form name="connection" method="POST" action="auth.php">
+                <div class="d-flex flex-column m-3 justify-content-center align-items-center">
+                    <div class="button d-flex flex-column">
+                        <label class="blanc m-2 button px-5">
+                            <input name="login" type="text" placeholder="Pseudo" required>
+                        </label>
+                    </div>
+                    <div class="button mx-5 mt-2 d-flex flex-column">
+                        <label class="blanc m-2 button px-5">
+                            <input name="password" type="password" placeholder="Mot de passe" required>
+                        </label>
+                    </div>
+                    <div class="mx-5 mt-2 d-flex flex-column">
+                        <a href="inscription.php">Pas de compte ?</a>
+                    </div>
+                    <div class="d-flex flex-column m-5">
+                    <button class="buttonvalider m-2 p-1" type="submit">Valider</button>
+                        <a class="m-2 p-1 buttonquitter" href="."><svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.8 16.875V13.5H12.1333V10.125H20.8V6.75L26 11.8125L20.8 16.875ZM19.0667 15.1875V21.9375H10.4V27L0 21.9375V0H19.0667V8.4375H17.3333V1.6875H3.46667L10.4 5.0625V20.25H17.3333V15.1875H19.0667Z" fill="white"/>
+                            </svg>
+                            Quitter    
+                        </a>
+                    </div>
+                </div>               
+            </form>
+        </div>
+    </body>
+</html>
